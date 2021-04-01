@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <h1>UNA Parking Pal</h1>
-        <form action="docs/map.php" method="post">
+        <form action="img/map.jpg" method="post">
             <input type="submit" value="Click to enter">
         </form>
         <?php
