@@ -10,7 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <img src="./img/map.jpg" alt="UNA map">
+        <img src="../img/map.jpg" alt="UNA map">
         <?php
         // put your code here
         ?>
