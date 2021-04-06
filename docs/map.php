@@ -11,6 +11,11 @@ and open the template in the editor.
     </head>
     <body>
         <img src="../img/map.jpg" alt="UNA map">
+
+        <p>Click to view legend</p>
+        <form action="legend.php" method="post">
+            <input type="submit" value="View Legend">
+        </form>
         <?php
         // put your code here
         ?>
