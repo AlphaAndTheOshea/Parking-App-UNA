@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>  
 <html>
-    <head>
-    </head>
+    <head><link rel="stylesheet" href="style.css"></head>
     <body>  
 
         <h2>UNA Parking Pal</h2>
