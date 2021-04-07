@@ -1,23 +1,43 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>  
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title></title>
     </head>
-    <body>
-        <form action="#" method="post">
-        <select name="person">
-            <option value="Student">Student</option>
-            <option value="Faculty">Faculty</option>
-            <option value="Visitor">Visitor</option>
-        </select>
-        <input type="submit" name="submit" value="Get Selected Values" />
+    <body>  
+
+        <h2>UNA Parking App</h2>
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
+            <input type="radio" name="person" value="resident">Resident Student
+            <input type="radio" name="person" value="commuter">Commuter Student
+            <input type="radio" name="person" value="faculty">Faculty
+            <input type="radio" name="person" value="visitor">Visitor
+            <br><br>
+            <input type="submit" name="submit" value="Submit">  
         </form>
+
         <?php
-        if(isset($_POST['submit'])){
-            $selected_val = $_POST['person'];  // Storing Selected Value In Variable
-            echo "You have selected :" .$selected_val;  // Displaying Selected Value
-            }
+        // define variables and set to empty values
+        $res_status = 'unchecked';
+        $comm_status = 'unchecked';
+        $faculty_status = 'unchecked';
+        $visitor_status = 'unchecked';
+
+        if (isset($_POST['submit'])) {
+            $person_selected = $_POST['person'];
+            //$res = ($_POST["resident"]);
+            //$com = ($_POST["commuter"]);
+            //$faculty = ($_POST["faculty"]);
+            //$visitor = ($_POST["visitor"]);
+            $person_selected = $_POST['person'];
+                if ($person_selected == 'resident') {
+                    header("Location: resident.php");
+                }elseif ($person_selected == 'commuter') {
+                    header("Location: commuter.php");
+                }elseif ($person_selected == 'faculty') {
+                    header("Location: faculty.php");
+                }elseif ($person_selected == 'visitor') {
+                    header("Location: visitor.php");
+                }               
+        }
         ?>
     </body>
 </html>
