@@ -4,7 +4,7 @@
     </head>
     <body>  
 
-        <h2>UNA Parking App</h2>
+        <h2>UNA Parking Pal</h2>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
             <input type="radio" name="person" value="resident">Resident Student
             <input type="radio" name="person" value="commuter">Commuter Student
