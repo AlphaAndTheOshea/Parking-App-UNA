@@ -23,19 +23,14 @@
 
         if (isset($_POST['submit'])) {
             $person_selected = $_POST['person'];
-            //$res = ($_POST["resident"]);
-            //$com = ($_POST["commuter"]);
-            //$faculty = ($_POST["faculty"]);
-            //$visitor = ($_POST["visitor"]);
-            $person_selected = $_POST['person'];
                 if ($person_selected == 'resident') {
-                    header("Location: resident.php");
+                    header("Location: residentMap.php");
                 }elseif ($person_selected == 'commuter') {
-                    header("Location: commuter.php");
+                    header("Location: commuterMap.php");
                 }elseif ($person_selected == 'faculty') {
-                    header("Location: faculty.php");
+                    header("Location: facultyMap.php");
                 }elseif ($person_selected == 'visitor') {
-                    header("Location: visitor.php");
+                    header("Location: visitorMap.php");
                 }               
         }
         ?>
