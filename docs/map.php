@@ -7,11 +7,14 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>UNA Map</title>
     </head>
-    <body>
-        <img src="../img/map.jpg" alt="UNA map">
 
+    <body>
+    <div id = "unamap">
+        <img src="../img/map.jpg" alt="UNA map" style="max-width: 100%;height: auto;">
+    </div>
+    
         <p>Click to view legend</p>
         <form action="legend.php" method="post">
             <input type="submit" value="View Legend">
