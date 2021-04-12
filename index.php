@@ -40,7 +40,7 @@
                 <!-- Error Message -->
               </div>
               <div class="col-lg-6 login-btm login-button">
-                <button id="loginButton" type="submit" class="btn btn-outline-primary" onclick="document.location='/docs/map.php'">LOGIN</button>
+                <button id="loginButton" type="submit" class="btn btn-outline-primary" onclick="document.location='docs/map.php'">LOGIN</button>
 
               </div>
 
