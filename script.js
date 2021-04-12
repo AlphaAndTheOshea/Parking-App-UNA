@@ -35,4 +35,7 @@ $(document).ready(function() {
       button.removeClass("activeButton");
     }
   }
+  function goToURL() {
+      location.href = 'http://google.it';
+    }
 });
