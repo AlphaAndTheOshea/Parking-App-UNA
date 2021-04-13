@@ -29,11 +29,12 @@
               <label class="form-control-label">PASSWORD</label>
               <input id="passwordInput" type="password" class="form-control" i>
             </div>
+            <a href="docs/map.php">
             <div class="col-lg-12 loginbttm">
               <div class="col-lg-6 login-btm login-text">
                 <!-- Error Message -->
               </div>
-              <a href="docs/map.php">
+
               <div class="col-lg-6 login-btm login-button">
                 <button id="loginButton" type="submit" class="btn btn-outline-primary"><a href="docs/map.php">LOGIN</button>
               </div>
