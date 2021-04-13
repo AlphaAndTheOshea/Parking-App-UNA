@@ -15,9 +15,8 @@
     <div class="col-lg-3 col-md-2"></div>
     <div class="col-lg-6 col-md-8 login-box">
       <div class="col-lg-12 login-key">
-        <img width=250 height=250 border: 5px solid #555; src="./img/LoginLogo.jpg">
+        <img width=250 height=250 border: 5px solid #555; src="https://github.com/AlphaAndTheOshea/Parking-App-UNA/blob/iss20/img/LoginLogo.jpg?raw=true" />
       </div>
-
 
       <div class="col-lg-12 login-form">
         <div class="col-lg-12 login-form">
@@ -30,19 +29,12 @@
               <label class="form-control-label">PASSWORD</label>
               <input id="passwordInput" type="password" class="form-control" i>
             </div>
-            <div id="securityForm" class="form-group">
-              <label class="form-control-label">Security Question - What is your Mother's maiden name?</label>
-              <input id="securityInput" type="password" class="form-control">
-            </div>
-
             <div class="col-lg-12 loginbttm">
               <div class="col-lg-6 login-btm login-text">
                 <!-- Error Message -->
               </div>
               <div class="col-lg-6 login-btm login-button">
-                <form action="docs/map.php" method="post">
-                <button id="loginButton" type="submit" class="btn btn-outline-primary" onclick="goToURL()" >LOGIN</button>
-              </form>
+                <button id="loginButton" href="docs/map.php" type="submit" class="btn btn-outline-primary">LOGIN</button>
               </div>
 
             </div>
