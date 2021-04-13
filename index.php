@@ -33,9 +33,11 @@
               <div class="col-lg-6 login-btm login-text">
                 <!-- Error Message -->
               </div>
-              <div class="col-lg-6 login-btm login-button" href="docs/map.php">
+              <a href="docs/map.php">
+              <div class="col-lg-6 login-btm login-button">
                 <button id="loginButton" type="submit" class="btn btn-outline-primary"><a href="docs/map.php">LOGIN</button>
               </div>
+            </a>
 
             </div>
           </form>
