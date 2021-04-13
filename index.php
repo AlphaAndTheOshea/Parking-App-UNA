@@ -29,8 +29,9 @@
               <label class="form-control-label">PASSWORD</label>
               <input id="passwordInput" type="password" class="form-control" i>
             </div>
-            <a href="docs/map.php">
+
             <div class="col-lg-12 loginbttm">
+              <a href="docs/map.php">
               <div class="col-lg-6 login-btm login-text">
                 <!-- Error Message -->
               </div>
