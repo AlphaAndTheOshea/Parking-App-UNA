@@ -34,7 +34,7 @@
                 <!-- Error Message -->
               </div>
               <div class="col-lg-6 login-btm login-button">
-                <button id="loginButton" onclick="location.href='docs/map.php'" type="submit" class="btn btn-outline-primary">LOGIN</button>
+                <button id="loginButton" type="submit" class="btn btn-outline-primary"><a href="docs/map.php">LOGIN</button>
               </div>
 
             </div>
