@@ -6,3 +6,13 @@ $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
 echo "<a href='$url'>back</a>";
 
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Faculty Parking</title>
+</head>
+<body>
+	<img src="../img/ResidentsParkingMap.png">
+</body>
+</html>
