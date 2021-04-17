@@ -7,12 +7,12 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>UNA Map</title>
     </head>
-
     <body>
-    <div id = "unamap">
-        <img src="../img/map.jpg" alt="UNA map" style="max-width: 100%;height: auto;">
+    <div class = "imgbox flex-parent">
+        <img class = "center-fit flex-child" src="../img/map.jpg" alt="UNA map">
     </div>
     
         <p>Click to view legend</p>

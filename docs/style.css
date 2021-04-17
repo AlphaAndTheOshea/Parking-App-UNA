@@ -7,3 +7,28 @@ h2 {
   color: white;
   text-align: center;
 }
+
+* {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+flex-parent {
+	display: flex;
+	height: 250px;
+	width: 250px;
+}
+flex-child {
+	flex-grow: 2;
+}
+flex-legend {
+	flex-grow: 0;
+}
