@@ -21,16 +21,21 @@ h2 {
             max-height: 100vh;
             margin: auto;
         }
-flex-parent {
-	display: flex;
-	height: 250px;
-	width: 250px;
+.flex-parent {
+  display: flex;
+  padding: 10px;
 }
-flex-child {
-	flex-grow: 2;
+.flex-child {
+  flex: 1;
+  padding: 10px;
+
 }
-flex-legend {
-	flex-grow: 0;
-  max-width: 100%;
-  background-color: purple;
+.flex-legend {
+  flex: 1;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+li {
+  font-size: 15px;
+  padding: 10px;
 }
