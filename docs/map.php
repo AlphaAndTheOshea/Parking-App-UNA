@@ -14,6 +14,9 @@ and open the template in the editor.
     <div class = "imgbox flex-parent">
         <img class = "center-fit flex-child" src="../img/map.jpg" alt="UNA map">
     </div>
+    <div class = "flex-legend">
+        <p>test</p>
+    </div>
     
         <p>Click to view legend</p>
         <form action="legend.php" method="post">
