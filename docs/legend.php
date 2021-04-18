@@ -9,6 +9,8 @@
             <input type="radio" name="person" value="commuter">Commuter Student
             <input type="radio" name="person" value="faculty">Faculty
             <input type="radio" name="person" value="visitor">Visitor
+            <input type="radio" name="person" value="handicap">Handicap 
+            <input type="radio" name="person" value="motorcycle">Motorcycle
             <br><br>
             <input type="submit" name="submit" value="Submit">  
         </form>
@@ -30,6 +32,10 @@
                     header("Location: facultyMap.php");
                 }elseif ($person_selected == 'visitor') {
                     header("Location: visitorMap.php");
+                }elseif ($person_selected == 'handicap') {
+                    header("Location: handicapMap.php");
+                }elseif ($person_selected == 'motorcycle') {
+                    header("Location: motorcycleMap.php");
                 }               
         }
         ?>

@@ -1,7 +1,7 @@
 
 <?php
 
-echo "<h2>Testing for resident map page</h2>";
+echo "<h2>Testing for motorcycle map page</h2>";
 
 $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
 echo "<a href='$url'>back</a>";
@@ -10,7 +10,7 @@ echo "<a href='$url'>back</a>";
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Resident Parking</title>
+	<title>Motorcycle Parking</title>
 </head>
 <body>
     <!insert the last part of the image address below**>
