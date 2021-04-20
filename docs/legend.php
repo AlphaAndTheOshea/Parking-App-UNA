@@ -34,10 +34,13 @@
                     header("Location: visitorMap.php");
                 }elseif ($person_selected == 'handicap') {
                     header("Location: handicapMap.php");
-                }elseif ($person_selected == 'motorcycle') {
-                    header("Location: motorcycleMap.php");
-                }               
-        }
+                }
+            }               
+        
         ?>
+		<form method="post" action="map.php">
+            <input type="submit" value="Back to main map"/>
+        </form>
+		
     </body>
 </html>

@@ -30,5 +30,11 @@ function getPhoto() {
   <br><br>
   <input type="submit" name="submit" value="Submit">  
 </form>
+
+</br>
+
+<?php $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+        echo "<a href='$url'>back</a>"; ?>
+
 </body>
 </html>
