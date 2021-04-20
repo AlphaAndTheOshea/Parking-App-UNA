@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 function getPhoto() {
-    echo "<img src='../img/motorcycleMap.png'";
+    echo "<img src='../img/MotorcycleMap.png'";
     echo "</br>";
 }
 ?>
