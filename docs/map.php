@@ -11,9 +11,10 @@ and open the template in the editor.
         <title>UNA Map</title>
     </head>
     <body>
+        <!--Parent div class for flexbox layout-->
     <div class = "imgbox flex-parent">
         <img class = "center-fit flex-child" src="../img/map.jpg" alt="UNA map">
-    
+    <!--Child class for flexbox layout-->
     <div class = "flex-legend">
     	<div class = "markers">
         <p>	
