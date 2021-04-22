@@ -10,7 +10,6 @@
             <input type="radio" name="person" value="faculty">Faculty
             <input type="radio" name="person" value="visitor">Visitor
             <input type="radio" name="person" value="handicap">Handicap 
-            <input type="radio" name="person" value="motorcycle">Motorcycle
             <br><br>
             <input type="submit" name="submit" value="Submit">  
         </form>
@@ -24,23 +23,23 @@
 
         if (isset($_POST['submit'])) {
             $person_selected = $_POST['person'];
-                if ($person_selected == 'resident') {
-                    header("Location: residentMap.php");
-                }elseif ($person_selected == 'commuter') {
-                    header("Location: commuterMap.php");
-                }elseif ($person_selected == 'faculty') {
-                    header("Location: facultyMap.php");
-                }elseif ($person_selected == 'visitor') {
-                    header("Location: visitorMap.php");
-                }elseif ($person_selected == 'handicap') {
-                    header("Location: handicapMap.php");
-                }
-            }               
-        
+            if ($person_selected == 'resident') {
+                header("Location: residentMap.php");
+            } elseif ($person_selected == 'commuter') {
+                header("Location: commuterMap.php");
+            } elseif ($person_selected == 'faculty') {
+                header("Location: facultyMap.php");
+            } elseif ($person_selected == 'visitor') {
+                header("Location: visitorMap.php");
+            } elseif ($person_selected == 'handicap') {
+                header("Location: handicapMap.php");
+            }
+        }
         ?>
-		<form method="post" action="map.php">
+        <form method="post" action="map.php">
+            </br>
             <input type="submit" value="Back to main map"/>
         </form>
-		
+
     </body>
 </html>
