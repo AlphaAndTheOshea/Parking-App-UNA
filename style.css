@@ -1,140 +1,177 @@
 body {
-  background: #311432;
-  font-family: "Roboto", sans-serif;
+    /*    background: #311432;*/ /*Previous background color for login page (temporary fix)*/
+    background-color: rgb(220,208,255); 
+    font-family: "Roboto", sans-serif;
 }
 
 
 .login-box {
-  margin-top: 75px;
-  height: 720px;
-  padding: 20px;
-  background: #6c3398;
-  border-radius: 15px;
-  text-align: center;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-top: 75px;
+    height: 720px;
+    padding: 20px;
+    background: #6c3398;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-img{
-  border-style: solid;
-  border-color: #Ffef00;
-  border-radius: 25px;
-  margin:40px;
-  padding:5px;
-  border-width:5px;
+.indexIMG{
+    border-style: solid;
+    border-color: #Ffef00;
+    border-radius: 25px;
+    margin:40px;
+    padding:5px;
+    border-width:5px;
 }
 
 .login-key {
-  height: 300px;
-  font-size: 80px;
-  line-height: 100px;
-  background: -webkit-linear-gradient(#27ef9f, #0db8de);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
- 
+    height: 300px;
+    font-size: 80px;
+    line-height: 100px;
+    background: -webkit-linear-gradient(#27ef9f, #0db8de);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .login-title {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 16px;
-  letter-spacing: 2px;
-  margin-top: 15px;
-  font-weight: bold;
-  color: #ecf0f5;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ecf0f5;
 }
 
 .login-form {
-  margin-top: 25px;
-  text-align: left;
+    margin-top: 25px;
+    text-align: left;
 }
 
 input[type="text"] {
-  background-color: #1a2226;
-  border: none;
-  border-bottom: 2px solid #Ffef00;
-  border-top: 0px;
-  border-radius: 0px;
-  font-weight: bold;
-  outline: 0;
-  margin-bottom: 20px;
-  padding-left: 0px;
-  color: #ecf0f5;
+    background-color: #1a2226;
+    border: none;
+    border-bottom: 2px solid #Ffef00;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ecf0f5;
 }
 
 input[type="password"] {
-  background-color: #1a2226;
-  border: none;
-  border-bottom: 2px solid #Ffef00;
-  border-top: 0px;
-  border-radius: 0px;
-  font-weight: bold;
-  outline: 0;
-  padding-left: 0px;
-  margin-bottom: 20px;
-  color: #ecf0f5;
+    background-color: #1a2226;
+    border: none;
+    border-bottom: 2px solid #Ffef00;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: #ecf0f5;
 }
 
 .form-group {
-  margin-bottom: 40px;
-  outline: 0px;
+    margin-bottom: 40px;
+    outline: 0px;
 }
 
 .form-control:focus {
-  border-color: inherit;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border-bottom: 2px solid #0db8de;
-  outline: 0;
-  background-color: #1a2226;
-  color: #ecf0f5;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #0db8de;
+    outline: 0;
+    background-color: #1a2226;
+    color: #ecf0f5;
 }
 
 input:focus {
-  outline: none;
-  box-shadow: 0 0 0;
+    outline: none;
+    box-shadow: 0 0 0;
 }
 
 label {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .form-control-label {
-  font-size: 10px;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 1px;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .btn-outline-primary {
-  border-radius: 50px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  color: #FFFFFF
-  box-shadow: 0 1px 3px #Ffef00;
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FFFFFF
+        box-shadow: 0 1px 3px #Ffef00;
 }
 
 .btn-outline-primary:hover {
-  background-color: #Ffef00;
-  color: #FFFFFF
-  right: 0px;
+    background-color: #Ffef00;
+    color: #FFFFFF
+        right: 0px;
 }
 
 .login-btm {
-  float: left;
+    float: left;
 }
 
 .login-button {
-  padding-right: 0px;
-  text-align: right;
-  margin-bottom: 25px;
+    padding-right: 0px;
+    text-align: right;
+    margin-bottom: 25px;
 }
 
 .login-text {
-  text-align: left;
-  padding-left: 30px;
-  color: #a2a4a4;
+    text-align: left;
+    padding-left: 30px;
+    color: #a2a4a4;
 }
 
 .loginbttm {
-  padding: 0px;
+    padding: 0px;
+}
+
+.faculty-Map{
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+}
+
+.commuterMapIMG{
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+}
+
+.residentMapIMG{
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+}
+
+.visitorMapIMG{
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+}
+
+.motorcycleMapIMG{
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+}
+
+.handicapMapIMG{
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
 }

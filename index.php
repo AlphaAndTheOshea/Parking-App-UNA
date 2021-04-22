@@ -15,7 +15,7 @@
     <div class="col-lg-3 col-md-2"></div>
     <div class="col-lg-6 col-md-8 login-box">
       <div class="col-lg-12 login-key">
-        <img width=250 height=250 border: 5px solid #555; src="https://github.com/AlphaAndTheOshea/Parking-App-UNA/blob/iss20/img/LoginLogo.jpg?raw=true" />
+        <img width=250 height=250 border: 5px solid #555; src="https://github.com/AlphaAndTheOshea/Parking-App-UNA/blob/iss20/img/LoginLogo.jpg?raw=true" class="indexIMG" />
       </div>
 
       <div class="col-lg-12 login-form">

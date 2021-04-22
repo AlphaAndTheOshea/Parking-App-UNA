@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Visitor Parking</title>
-</head>
-<body>
-	<img src="../img/visitorParking.png">
-	<?php
-// define variables and set to empty values
+    <head>
+        <title>Visitor Parking</title>
+        <link rel="stylesheet" href="../style.css">
+
+    </head>
+    <body>
+        <img src="../img/visitorParking.png" class="visitorMapIMG">
+        <?php
+ define variables and set to empty values
 $filter = $motorcycleErr = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -18,17 +20,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 function getPhoto() {
-    echo "<img src='../img/MotorcycleMap.png'";
+    echo "<img src='../img/MotorcycleMap.png' class='motorcycleMapIMG'";
     echo "</br>";
 }
-?>
 
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+        ?>
+
+<form method="post" action="//<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">  
   Filters:
-  <input type="radio" name="filter" <?php if (isset($filter) && $filter=="motorcycle") echo "checked";?> value="motorcycle">Motorcycle
-  <span class="error"> <?php echo $motorcycleErr;?></span>
+  <input type="radio" name="filter" //<?php if (isset($filter) && $filter == "motorcycle") echo "checked"; ?> value="motorcycle">Motorcycle
+  <span class="error"> //<?php echo $motorcycleErr; ?></span>
   <br><br>
   <input type="submit" name="submit" value="Submit">  
 </form>
-</body>
+
+        </br>
+        <?php
+        $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+        echo "<a href='$url'>back</a>";
+        ?>
+    </body>
 </html>
